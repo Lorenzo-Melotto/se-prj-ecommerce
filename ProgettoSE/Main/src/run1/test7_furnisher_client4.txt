@@ -1,0 +1,954 @@
+Hello, furnisher client!
+Seed: 90968056
+ACTION: GET_FURNISHER_ID
+    (string) furnisherstreamserver
+        (string) 1711042306183-0
+          (string) GOT_FURNISHER_ID
+          (string) 2088029817
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: GOT_FURNISHER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042306183-0 from stream furnisherstreamserver
+After ack
+Existing furnisher with id got: 2088029817
+2024-03-21 18:31:46, 184219320, 0.000000, 19584, 2088029817, GET_FURNISHER_ID
+Furnisher 2088029817 decides to take 7 actions
+No action
+ACTION: INSERT from furnisher 2088029817
+Inserting item with id 1250630504 from furnisher 2088029817
+    (string) furnisherstreamserver
+        (string) 1711042306233-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 2088029817
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042306233-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:31:46, 234777037, 0.000000, 19584, 2088029817, INSERT_ITEM
+ACTION: UPDATE from furnisher 2088029817
+    (string) furnisherstreamserver
+        (string) 1711042306271-0
+          (string) ITEM_ID
+          (string) 1175435129
+          (string) ITEM_QTA
+          (string) 93
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042306271-0 from stream furnisherstreamserver
+After ack
+Item: 1175435129, quantity: 93
+2024-03-21 18:31:46, 272785717, 0.000000, 19584, 2088029817, LIST_OF_ITEMS
+Furnisher with ID 2088029817 wants to update item 1175435129 with new quantity 99
+    (string) furnisherstreamserver
+        (string) 1711042306281-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042306281-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:31:46, 282684746, 0.000000, 19584, 2088029817, UPDATE_ITEM
+ACTION: UPDATE from furnisher 2088029817
+    (string) furnisherstreamserver
+        (string) 1711042306318-0
+          (string) ITEM_ID
+          (string) 1684577782
+          (string) ITEM_QTA
+          (string) 84
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042306318-0 from stream furnisherstreamserver
+After ack
+Item: 1684577782, quantity: 84
+2024-03-21 18:31:46, 320138882, 0.000000, 19584, 2088029817, LIST_OF_ITEMS
+Furnisher with ID 2088029817 wants to update item 1684577782 with new quantity 92
+    (string) furnisherstreamserver
+        (string) 1711042306328-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042306328-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:31:46, 329784036, 0.000000, 19584, 2088029817, UPDATE_ITEM
+ACTION: INSERT from furnisher 2088029817
+Inserting item with id 1469756494 from furnisher 2088029817
+    (string) furnisherstreamserver
+        (string) 1711042306369-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 2088029817
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042306369-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:31:46, 371066411, 0.000000, 19584, 2088029817, INSERT_ITEM
+ACTION: INSERT from furnisher 2088029817
+Inserting item with id 292341968 from furnisher 2088029817
+    (string) furnisherstreamserver
+        (string) 1711042306409-0
+          (string) ITEM_ID
+          (string) 2034614572
+          (string) ITEM_QTA
+          (string) 84
+          (string) CLIENT_ID
+          (string) 1126480616
+The ids DO NOT MATCH! 1392943056 != 1126480616
+    (string) furnisherstreamserver
+    (string) furnisherstreamserver
+    (string) furnisherstreamserver
+    (string) furnisherstreamserver
+    (string) furnisherstreamserver
+    (string) furnisherstreamserver
+    (string) furnisherstreamserver
+    (string) furnisherstreamserver
+        (string) 1711042306410-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 2088029817
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042306410-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:31:46, 412890969, 0.000000, 19584, 2088029817, INSERT_ITEM
+No action
+L'operazione è durata 1640622359 nanosecondi 
+####################
+ACTION: GET_FURNISHER_ID
+    (string) furnisherstreamserver
+        (string) 1711042346480-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 570634156
+          (string) CLIENT_ID
+          (string) 1126480616
+The ids DO NOT MATCH! 1392943056 != 1126480616
+    (string) furnisherstreamserver
+        (string) 1711042346478-0
+          (string) GOT_FURNISHER_ID
+          (string) 1167608012
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: GOT_FURNISHER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042346478-0 from stream furnisherstreamserver
+After ack
+Existing furnisher with id got: 1167608012
+2024-03-21 18:32:26, 482746586, 40.295337, 19584, 1167608012, GET_FURNISHER_ID
+Furnisher 1167608012 decides to take 5 actions
+ACTION: UPDATE from furnisher 1167608012
+    (string) furnisherstreamserver
+        (string) 1711042346487-0
+          (string) ITEM_ID
+          (string) 2135358954
+          (string) ITEM_QTA
+          (string) 93
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042346487-0 from stream furnisherstreamserver
+After ack
+Item: 2135358954, quantity: 93
+2024-03-21 18:32:26, 488762480, 40.295337, 19584, 1167608012, LIST_OF_ITEMS
+Furnisher with ID 1167608012 wants to update item 2135358954 with new quantity 96
+    (string) furnisherstreamserver
+        (string) 1711042346502-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042346502-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:32:26, 503360745, 40.295337, 19584, 1167608012, UPDATE_ITEM
+No action
+ACTION: UPDATE from furnisher 1167608012
+    (string) furnisherstreamserver
+        (string) 1711042346568-0
+          (string) ITEM_ID
+          (string) 2135358954
+          (string) ITEM_QTA
+          (string) 96
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042346568-0 from stream furnisherstreamserver
+After ack
+Item: 2135358954, quantity: 96
+2024-03-21 18:32:26, 570177146, 40.295337, 19584, 1167608012, LIST_OF_ITEMS
+Furnisher with ID 1167608012 wants to update item 2135358954 with new quantity 99
+    (string) furnisherstreamserver
+        (string) 1711042346577-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042346577-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:32:26, 579273413, 40.295337, 19584, 1167608012, UPDATE_ITEM
+ACTION: INSERT from furnisher 1167608012
+Inserting item with id 53272392 from furnisher 1167608012
+    (string) furnisherstreamserver
+        (string) 1711042346617-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1167608012
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042346617-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:32:26, 619166006, 40.295337, 19584, 1167608012, INSERT_ITEM
+ACTION: INSERT from furnisher 1167608012
+Inserting item with id 543355355 from furnisher 1167608012
+    (string) furnisherstreamserver
+        (string) 1711042346658-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1167608012
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042346658-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:32:26, 659434767, 40.295337, 19584, 1167608012, INSERT_ITEM
+L'operazione è durata 1561037757 nanosecondi 
+####################
+New furnisher with id: 1418977813
+Furnisher 1418977813 decides to take 5 actions
+No action
+ACTION: INSERT from furnisher 1418977813
+Inserting item with id 1035661070 from furnisher 1418977813
+    (string) furnisherstreamserver
+        (string) 1711042386766-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1418977813
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042386766-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:33:06, 768316101, 40.215809, 19584, 1418977813, INSERT_ITEM
+ACTION: UPDATE from furnisher 1418977813
+    (string) furnisherstreamserver
+        (string) 1711042386824-0
+          (string) ITEM_ID
+          (string) 1035661070
+          (string) ITEM_QTA
+          (string) 97
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042386824-0 from stream furnisherstreamserver
+After ack
+Item: 1035661070, quantity: 97
+2024-03-21 18:33:06, 825381189, 40.215809, 19584, 1418977813, LIST_OF_ITEMS
+Furnisher with ID 1418977813 wants to update item 1035661070 with new quantity 97
+    (string) furnisherstreamserver
+        (string) 1711042386833-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042386833-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:33:06, 834786017, 40.215809, 19584, 1418977813, UPDATE_ITEM
+No action
+L'operazione è durata 1551354190 nanosecondi 
+####################
+New furnisher with id: 1817661070
+Furnisher 1817661070 decides to take 4 actions
+ACTION: INSERT from furnisher 1817661070
+Inserting item with id 2110003039 from furnisher 1817661070
+    (string) furnisherstreamserver
+        (string) 1711042426912-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1817661070
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042426912-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:33:46, 913606319, 40.206143, 19584, 1817661070, INSERT_ITEM
+ACTION: INSERT from furnisher 1817661070
+Inserting item with id 766247886 from furnisher 1817661070
+    (string) furnisherstreamserver
+        (string) 1711042426956-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1817661070
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042426956-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:33:46, 957751511, 40.206143, 19584, 1817661070, INSERT_ITEM
+No action
+No action
+L'operazione è durata 1498538139 nanosecondi 
+####################
+New furnisher with id: 1318553283
+Furnisher 1318553283 decides to take 4 actions
+ACTION: INSERT from furnisher 1318553283
+Inserting item with id 1915181031 from furnisher 1318553283
+    (string) furnisherstreamserver
+        (string) 1711042467155-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1318553283
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042467155-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:34:27, 156936417, 40.153350, 19584, 1318553283, INSERT_ITEM
+L'operazione è durata 1483897411 nanosecondi 
+####################
+New furnisher with id: 1186675197
+Furnisher 1186675197 decides to take 6 actions
+ACTION: INSERT from furnisher 1186675197
+Inserting item with id 404940214 from furnisher 1186675197
+    (string) furnisherstreamserver
+        (string) 1711042507295-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1186675197
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042507295-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:07, 296741818, 40.138725, 19584, 1186675197, INSERT_ITEM
+ACTION: INSERT from furnisher 1186675197
+Inserting item with id 316866979 from furnisher 1186675197
+    (string) furnisherstreamserver
+        (string) 1711042507336-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1186675197
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042507336-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:07, 337643556, 40.138725, 19584, 1186675197, INSERT_ITEM
+ACTION: INSERT from furnisher 1186675197
+Inserting item with id 1555242132 from furnisher 1186675197
+    (string) furnisherstreamserver
+        (string) 1711042507376-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1186675197
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042507376-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:07, 377867199, 40.138725, 19584, 1186675197, INSERT_ITEM
+L'operazione è durata 1565724842 nanosecondi 
+####################
+ACTION: GET_FURNISHER_ID
+    (string) furnisherstreamserver
+        (string) 1711042547413-0
+          (string) GOT_FURNISHER_ID
+          (string) 1291890916
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: GOT_FURNISHER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547413-0 from stream furnisherstreamserver
+After ack
+Existing furnisher with id got: 1291890916
+2024-03-21 18:35:47, 414655374, 40.220548, 19584, 1291890916, GET_FURNISHER_ID
+Furnisher 1291890916 decides to take 9 actions
+ACTION: UPDATE from furnisher 1291890916
+    (string) furnisherstreamserver
+        (string) 1711042547427-0
+          (string) ITEM_ID
+          (string) 1086697603
+          (string) ITEM_QTA
+          (string) 92
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547427-0 from stream furnisherstreamserver
+After ack
+Item: 1086697603, quantity: 92
+2024-03-21 18:35:47, 428623177, 40.220548, 19584, 1291890916, LIST_OF_ITEMS
+Furnisher with ID 1291890916 wants to update item 1086697603 with new quantity 94
+    (string) furnisherstreamserver
+        (string) 1711042547441-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547441-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:47, 442978183, 40.220548, 19584, 1291890916, UPDATE_ITEM
+No action
+ACTION: UPDATE from furnisher 1291890916
+    (string) furnisherstreamserver
+        (string) 1711042547509-0
+          (string) ITEM_ID
+          (string) 1068070200
+          (string) ITEM_QTA
+          (string) 13
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547509-0 from stream furnisherstreamserver
+After ack
+Item: 1068070200, quantity: 13
+2024-03-21 18:35:47, 510409401, 40.220548, 19584, 1291890916, LIST_OF_ITEMS
+Furnisher with ID 1291890916 wants to update item 1068070200 with new quantity 93
+    (string) furnisherstreamserver
+        (string) 1711042547518-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547518-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:47, 519327991, 40.220548, 19584, 1291890916, UPDATE_ITEM
+ACTION: UPDATE from furnisher 1291890916
+    (string) furnisherstreamserver
+        (string) 1711042547555-0
+          (string) ITEM_ID
+          (string) 2003089519
+          (string) ITEM_QTA
+          (string) 9
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547555-0 from stream furnisherstreamserver
+After ack
+Item: 2003089519, quantity: 9
+2024-03-21 18:35:47, 556250561, 40.220548, 19584, 1291890916, LIST_OF_ITEMS
+Furnisher with ID 1291890916 wants to update item 2003089519 with new quantity 96
+    (string) furnisherstreamserver
+        (string) 1711042547563-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547563-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:47, 564989657, 40.220548, 19584, 1291890916, UPDATE_ITEM
+ACTION: INSERT from furnisher 1291890916
+Inserting item with id 1458858400 from furnisher 1291890916
+    (string) furnisherstreamserver
+        (string) 1711042547604-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1291890916
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547604-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:47, 605509011, 40.220548, 19584, 1291890916, INSERT_ITEM
+ACTION: UPDATE from furnisher 1291890916
+    (string) furnisherstreamserver
+        (string) 1711042547641-0
+          (string) ITEM_ID
+          (string) 1068070200
+          (string) ITEM_QTA
+          (string) 93
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547641-0 from stream furnisherstreamserver
+After ack
+Item: 1068070200, quantity: 93
+2024-03-21 18:35:47, 642294412, 40.220548, 19584, 1291890916, LIST_OF_ITEMS
+Furnisher with ID 1291890916 wants to update item 1068070200 with new quantity 94
+    (string) furnisherstreamserver
+        (string) 1711042547650-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547650-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:47, 652115916, 40.220548, 19584, 1291890916, UPDATE_ITEM
+ACTION: UPDATE from furnisher 1291890916
+    (string) furnisherstreamserver
+        (string) 1711042547688-0
+          (string) ITEM_ID
+          (string) 658329100
+          (string) ITEM_QTA
+          (string) 7
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547688-0 from stream furnisherstreamserver
+After ack
+Item: 658329100, quantity: 7
+2024-03-21 18:35:47, 689306190, 40.220548, 19584, 1291890916, LIST_OF_ITEMS
+Furnisher with ID 1291890916 wants to update item 658329100 with new quantity 60
+    (string) furnisherstreamserver
+        (string) 1711042547696-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547696-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:47, 698118341, 40.220548, 19584, 1291890916, UPDATE_ITEM
+ACTION: UPDATE from furnisher 1291890916
+    (string) furnisherstreamserver
+        (string) 1711042547733-0
+          (string) ITEM_ID
+          (string) 1927152292
+          (string) ITEM_QTA
+          (string) 2
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547733-0 from stream furnisherstreamserver
+After ack
+Item: 1927152292, quantity: 2
+2024-03-21 18:35:47, 734761404, 40.220548, 19584, 1291890916, LIST_OF_ITEMS
+Furnisher with ID 1291890916 wants to update item 1927152292 with new quantity 2
+    (string) furnisherstreamserver
+        (string) 1711042547742-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547742-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:47, 743741734, 40.220548, 19584, 1291890916, UPDATE_ITEM
+ACTION: UPDATE from furnisher 1291890916
+    (string) furnisherstreamserver
+        (string) 1711042547779-0
+          (string) ITEM_ID
+          (string) 2003089519
+          (string) ITEM_QTA
+          (string) 96
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547779-0 from stream furnisherstreamserver
+After ack
+Item: 2003089519, quantity: 96
+2024-03-21 18:35:47, 780250561, 40.220548, 19584, 1291890916, LIST_OF_ITEMS
+Furnisher with ID 1291890916 wants to update item 2003089519 with new quantity 97
+    (string) furnisherstreamserver
+        (string) 1711042547787-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042547787-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:35:47, 788895371, 40.220548, 19584, 1291890916, UPDATE_ITEM
+L'operazione è durata 1756070797 nanosecondi 
+####################
+New furnisher with id: 1580866039
+Furnisher 1580866039 decides to take 6 actions
+ACTION: INSERT from furnisher 1580866039
+Inserting item with id 821833374 from furnisher 1580866039
+    (string) furnisherstreamserver
+        (string) 1711042587835-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1580866039
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042587835-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:36:27, 837111342, 40.410891, 19584, 1580866039, INSERT_ITEM
+ACTION: INSERT from furnisher 1580866039
+Inserting item with id 1958858248 from furnisher 1580866039
+    (string) furnisherstreamserver
+        (string) 1711042587883-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1580866039
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042587883-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:36:27, 884427561, 40.410891, 19584, 1580866039, INSERT_ITEM
+No action
+ACTION: UPDATE from furnisher 1580866039
+    (string) furnisherstreamserver
+        (string) 1711042587951-0
+          (string) ITEM_ID
+          (string) 1958858248
+          (string) ITEM_QTA
+          (string) 82
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042587951-0 from stream furnisherstreamserver
+After ack
+Item: 1958858248, quantity: 82
+2024-03-21 18:36:27, 952567115, 40.410891, 19584, 1580866039, LIST_OF_ITEMS
+Furnisher with ID 1580866039 wants to update item 1958858248 with new quantity 96
+    (string) furnisherstreamserver
+        (string) 1711042587960-0
+          (string) OK_UPDATE_ITEM
+          (string) 
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_UPDATE_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042587960-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:36:27, 961406503, 40.410891, 19584, 1580866039, UPDATE_ITEM
+No action
+ACTION: INSERT from furnisher 1580866039
+Inserting item with id 609937692 from furnisher 1580866039
+    (string) furnisherstreamserver
+        (string) 1711042588030-0
+          (string) OK_INSERT_ITEM
+          (string) 
+          (string) FURNISHER_ID
+          (string) 1580866039
+          (string) CLIENT_ID
+          (string) 1392943056
+The ids match! 1392943056 = 1392943056
+Key in server response: OK_INSERT_ITEM
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711042588030-0 from stream furnisherstreamserver
+After ack
+2024-03-21 18:36:28, 31910971, 40.410891, 19584, 1580866039, INSERT_ITEM
+L'operazione è durata 1588951782 nanosecondi 
+####################
+Goodbye furnisher client!

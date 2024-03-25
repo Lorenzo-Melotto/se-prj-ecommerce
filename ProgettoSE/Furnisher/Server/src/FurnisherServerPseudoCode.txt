@@ -1,0 +1,30 @@
+Inizializza connessione a Redis e Postgresql
+Inizializza random number generator
+Crea un identificativo per leggere sulle stream Redis
+Ripeti indefinitivamente:
+ - Attendi che un client scriva un messaggio sulla stream Redis
+ - Estrai il comando dal messaggio letto:
+    - Se il comando estratto è GET_FURNISHER_ID:
+        - Estrai dal DB l'id di un furnisher in modo random
+        - Restituisici al client l'id letto scrivendo su stream Redis
+    - Se il comando estratto è INSERT_ITEM:
+        - Estrai dal messaggio id del prodotto, quantità 
+          disponibile del prodotto, id del furnisher che 
+          vuole inserire il prodotto
+        - Se è un nuovo furnisher, aggiungilo al DB
+        - Inserisci i dati inviati dal client sul DB
+        - Rispondi al client che l'operazione è andata a buon fine
+          sulla stream Redis
+    - Se il comando estratto è LIST_OF_ITEMS:
+        - Estrai dal messaggio l'id del furnisher
+        - Leggi dal DB id e quantità di tutti i prodotti inseriti
+          dal quel furnisher
+        - Scegli un prodotto da restituire in modo random
+        - Rispondi al client con l'id del prodotto scelto e la relativa
+          quantità disponibile scrivendo su stream Redis
+    - Se il comando estratto è UPDATE_ITEM:
+        - Estrai dal messaggio id del prodotto, nuova quantità 
+          del prodotto, id del furnisher che vuole aggiornare il prodotto
+        - Aggiorna sul DB le informazioni del prodotto
+        - Rispondi al client che l'operazione è andata a buon fine
+          sulla stream Redis

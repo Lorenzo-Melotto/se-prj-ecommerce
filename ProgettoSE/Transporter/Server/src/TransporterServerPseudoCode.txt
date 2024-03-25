@@ -1,0 +1,33 @@
+
+
+Inizializza connessione a Redis e Postgresql
+Inizializza random number generator
+Crea un identificativo per leggere sulle stream Redis
+Ripeti indefinitivamente:
+ - Attendi che un client scriva un messaggio sulla stream Redis
+ - Estrai il comando dal messaggio letto:
+    - Se il comando estratto è GET_TRANSPORTER_ID:
+        - Estrai dal DB l'id di un transporter in modo 
+          random
+        - Restituisici al client l'id letto scrivendo 
+          su stream Redis
+    - Se il comando estratto è TAKE_ORDER:
+        - Estrai dal messaggio l'id del transporter
+        - Se è un nuovo transporter, aggiungilo al DB
+        - Scegli l'id di un ordine che non è stato ancora 
+          preso in carico
+        - Rispondi al client con l'id dell'ordine scelto 
+          scrivendo su stream Redis
+    - Se il comando estratto è HAS_ORDERS:
+        - Estrai dal messaggio l'id del transporter
+        - Conta il numero di ordini presi in carico ancora 
+          da consegnare
+        - Rispondi al client scrivendo su stream Redis
+    - Se il comando estratto è DELIVER_ORDER:
+        - Estrai dal messaggio l'id del transporter
+        - Sceglie tra gli ordini presi in carico dal transporter 
+          letto, quello più urgente da consegnare
+        - Aggiorna lo stato dell'ordine sul DB
+        - Rispondi al client con l'id dell'ordine consegnato sulla 
+          stream Redis
+

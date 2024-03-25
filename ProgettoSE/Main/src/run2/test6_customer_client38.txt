@@ -1,0 +1,269 @@
+Hello, transporter client!
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711036353406-0
+          (string) TRANSPORTER_ID
+          (string) 500889380
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036353406-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 500889380
+2024-03-21 16:52:33, 407608521, 0.000000, 15936, 500889380, GET_TRANSPORTER_ID
+ACTION: TAKE_ORDER
+    (string) transporterstreamserver
+        (string) 1711036353426-0
+          (string) ORDER_ID_TAKE
+          (string) 266
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: ORDER_ID_TAKE
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036353426-0 from stream transporterstreamserver
+After ack
+2024-03-21 16:52:33, 427636508, 0.000000, 15936, 500889380, TAKE_ORDER
+L'operazione è durata 1373097252 nanosecondi 
+####################
+New transporter with id: 1957598727
+ACTION: TAKE_ORDER
+    (string) transporterstreamserver
+        (string) 1711036393445-0
+          (string) ORDER_ID_TAKE
+          (string) 79
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: ORDER_ID_TAKE
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036393445-0 from stream transporterstreamserver
+After ack
+2024-03-21 16:53:13, 446883518, 40.027811, 15936, 1957598727, TAKE_ORDER
+L'operazione è durata 1363849074 nanosecondi 
+####################
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711036433453-0
+          (string) TRANSPORTER_ID
+          (string) 1755205010
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036433453-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 1755205010
+2024-03-21 16:53:53, 454342063, 40.018671, 15936, 1755205010, GET_TRANSPORTER_ID
+ACTION: TAKE_ORDER
+    (string) transporterstreamserver
+        (string) 1711036433470-0
+          (string) ORDER_ID_TAKE
+          (string) 71
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: ORDER_ID_TAKE
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036433470-0 from stream transporterstreamserver
+After ack
+2024-03-21 16:53:53, 472251608, 40.018671, 15936, 1755205010, TAKE_ORDER
+L'operazione è durata 1370217742 nanosecondi 
+####################
+New transporter with id: 208754905
+[WARINING] New transporters cannot deliver orders as their first action
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711036513478-0
+          (string) TRANSPORTER_ID
+          (string) 325111846
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036513478-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 325111846
+2024-03-21 16:55:13, 479671944, 40.000236, 15936, 325111846, GET_TRANSPORTER_ID
+ACTION: DELIVER_ORDER
+    (string) transporterstreamserver
+        (string) 1711036513492-0
+          (string) ORDERS_COUNT
+          (string) 4
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: ORDERS_COUNT
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036513492-0 from stream transporterstreamserver
+After ack
+2024-03-21 16:55:13, 493657424, 40.000236, 15936, 325111846, HAS_ORDERS
+    (string) transporterstreamserver
+        (string) 1711036513501-0
+          (string) ORDER_ID_DELIVERY
+          (string) 72
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: ORDER_ID_DELIVERY
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036513501-0 from stream transporterstreamserver
+After ack
+2024-03-21 16:55:13, 502849938, 40.000236, 15936, 325111846, DELIVER_ORDER
+L'operazione è durata 1375654999 nanosecondi 
+####################
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711036553509-0
+          (string) TRANSPORTER_ID
+          (string) 879582911
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036553509-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 879582911
+2024-03-21 16:55:53, 510330343, 40.030360, 15936, 879582911, GET_TRANSPORTER_ID
+ACTION: DELIVER_ORDER
+    (string) transporterstreamserver
+        (string) 1711036553523-0
+          (string) ORDERS_COUNT
+          (string) 1
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: ORDERS_COUNT
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036553523-0 from stream transporterstreamserver
+After ack
+2024-03-21 16:55:53, 524727262, 40.030360, 15936, 879582911, HAS_ORDERS
+    (string) transporterstreamserver
+        (string) 1711036553535-0
+          (string) ORDER_ID_DELIVERY
+          (string) 67
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: ORDER_ID_DELIVERY
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036553535-0 from stream transporterstreamserver
+After ack
+2024-03-21 16:55:53, 536575512, 40.030360, 15936, 879582911, DELIVER_ORDER
+L'operazione è durata 1380130047 nanosecondi 
+####################
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711036593543-0
+          (string) TRANSPORTER_ID
+          (string) 696141582
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036593543-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 696141582
+2024-03-21 16:56:33, 545084688, 40.034947, 15936, 696141582, GET_TRANSPORTER_ID
+ACTION: TAKE_ORDER
+    (string) transporterstreamserver
+        (string) 1711036593561-0
+          (string) ORDER_ID_TAKE
+          (string) 92
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 849256826
+The ids match! 849256826 = 849256826
+Key in server response: ORDER_ID_TAKE
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036593561-0 from stream transporterstreamserver
+After ack
+2024-03-21 16:56:33, 562622883, 40.034947, 15936, 696141582, TAKE_ORDER
+L'operazione è durata 1370709219 nanosecondi 
+####################
+New transporter with id: 694047666
+[WARINING] New transporters cannot deliver orders as their first action
+Goodbye transporter client!

@@ -1,0 +1,29 @@
+Inizializza connessione a Redis e Postgresql
+Inizializza random number generator
+Crea un identificativo per leggere sulle stream Redis
+Inizializza il tempo di simulazione
+Ripeti fino alla fine del tempo di simulazione:
+ - Decidi in modo random se:
+    - Creare un nuovo customer creando un id random
+    - Effettuare il login con getCustomerId:
+        - Chiedi al server l'id di un customer esistente tramite
+          stream Redis
+        - Leggi dalla stream Redis l'id restituito dal server
+        - Effettua il log della transazione eseguita
+ - Decidi quante operazioni effettuare in un range compreso
+   tra le 2 e le 10 operazioni
+ - Decidi in modo randomico se:
+    - Comprare un prodotto con buyItem:
+        - Chiedi al server l'id di un prodotto esistente e la 
+          rispettiva quantità tramite stream Redis
+        - Leggi dalla stream Redis l'id e la quantità disponibile 
+          del prodotto restituito dal server
+        - Effettua il log della transazione eseguita
+        - Scegli la quantità da acquistare 
+        - Comunica al server l'id e la quantità del prodotto da 
+          acquistare tramite stream Redis
+        - Effettua il log della transazione eseguita
+    - Non fare nulla
+ - Aggiorna il tempo di simulazione
+Chiudi la comunicazione con Redis e Postgresql
+Termina il programma

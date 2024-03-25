@@ -1,0 +1,37 @@
+
+
+Inizializza connessione a Redis e Postgresql
+Inizializza random number generator
+Crea un identificativo per leggere sulle stream Redis
+Inizializza il tempo di simulazione
+Ripeti fino alla fine del tempo di simulazione:
+ - Decidi in modo random se:
+    - Creare un nuovo transporter creando un id random
+    - Effettuare il login con getTransporterId:
+        - Chiedi al server l'id di un transporter esistente tramite
+          stream Redis
+        - Leggi dalla stream Redis l'id restituito dal server
+        - Effettua il log della transazione eseguita
+ - Decidi quante operazioni effettuare in un range compreso
+   tra le 10 e le 20 operazioni
+ - Decidi in modo randomico se:
+    - Prendere un ordine in consegna con takeOrder:
+        - Chiedi al server l'id di un ordine esistente che 
+          non è stato ancora preso in carico tramite stream Redis
+        - Attendi di leggere l'id dell'ordine preso in carico dalla
+          stream Redis
+        - Effettua il log della transazione eseguita
+    - Consegnare un prodotto con deliverOrder:
+        - Verifica che il transporter non sia un nuovo transporter
+        - Chiedi al server di verificare che il transporter abbia 
+          ordini da consegnare
+        - Leggi la risposta dalla stream Redis
+        - Esegui il log della transazione eseguita
+        - Se ci sono ordini da consegnare, scrivi al server di 
+          consegnare l'ordine più urgente su stream Redis
+        - Leggi dal server l'id dell'ordine consegnato
+        - Esegui il log della transazione eseguita
+    - Non fare nulla
+ - Aggiorna il tempo di simulazione
+Chiudi la comunicazione con Redis e Postgresql
+Termina il programma

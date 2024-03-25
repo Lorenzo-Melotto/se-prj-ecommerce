@@ -1,0 +1,20 @@
+--Creo db
+
+DROP DATABASE IF EXISTS :dbname;
+CREATE DATABASE :dbname;
+
+\c :dbname postgres
+
+REASSIGN OWNED BY :username TO postgres;
+REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA public FROM :username;
+REVOKE ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public FROM :username;
+REVOKE ALL PRIVILEGES ON ALL FUNCTIONS IN SCHEMA public FROM :username;
+DROP OWNED BY :username;
+DROP USER IF EXISTS :username;
+-- CREATE USER :username WITH ENCRYPTED PASSWORD '47002';
+CREATE USER :username WITH PASSWORD '47002';
+
+\c :dbname postgres
+
+GRANT ALL PRIVILEGES ON DATABASE :dbname to :username;
+GRANT ALL ON SCHEMA public TO :username;

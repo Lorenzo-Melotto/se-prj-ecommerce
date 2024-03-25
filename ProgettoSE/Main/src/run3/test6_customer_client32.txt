@@ -1,0 +1,195 @@
+Hello, transporter client!
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711037182211-0
+          (string) TRANSPORTER_ID
+          (string) 427751012
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 153279699
+The ids match! 153279699 = 153279699
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711037182211-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 427751012
+2024-03-21 17:06:22, 212910252, 0.000000, 16573, 427751012, GET_TRANSPORTER_ID
+ACTION: DELIVER_ORDER
+    (string) transporterstreamserver
+        (string) 1711037182225-0
+          (string) ORDERS_COUNT
+          (string) 1
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 153279699
+The ids match! 153279699 = 153279699
+Key in server response: ORDERS_COUNT
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711037182225-0 from stream transporterstreamserver
+After ack
+2024-03-21 17:06:22, 226759539, 0.000000, 16573, 427751012, HAS_ORDERS
+    (string) transporterstreamserver
+        (string) 1711037182243-0
+          (string) ORDER_ID_DELIVERY
+          (string) 242
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 153279699
+The ids match! 153279699 = 153279699
+Key in server response: ORDER_ID_DELIVERY
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711037182243-0 from stream transporterstreamserver
+After ack
+2024-03-21 17:06:22, 244458298, 0.000000, 16573, 427751012, DELIVER_ORDER
+L'operazione è durata 1386879838 nanosecondi 
+####################
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711037222254-0
+          (string) TRANSPORTER_ID
+          (string) 1427838385
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 153279699
+The ids match! 153279699 = 153279699
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711037222254-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 1427838385
+2024-03-21 17:07:02, 255292649, 40.041592, 16573, 1427838385, GET_TRANSPORTER_ID
+No action
+L'operazione è durata 1359995480 nanosecondi 
+####################
+New transporter with id: 1931418760
+[WARINING] New transporters cannot deliver orders as their first action
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711037302268-0
+          (string) TRANSPORTER_ID
+          (string) 213815504
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 153279699
+The ids match! 153279699 = 153279699
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711037302268-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 213815504
+2024-03-21 17:08:22, 269784056, 40.000198, 16573, 213815504, GET_TRANSPORTER_ID
+ACTION: TAKE_ORDER
+    (string) transporterstreamserver
+        (string) 1711037302283-0
+          (string) ORDER_ID_TAKE
+          (string) -1
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 153279699
+The ids match! 153279699 = 153279699
+Key in server response: ORDER_ID_TAKE
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711037302283-0 from stream transporterstreamserver
+After ack
+L'operazione è durata 1363803677 nanosecondi 
+####################
+New transporter with id: 1320926554
+No action
+L'operazione è durata 1345451407 nanosecondi 
+####################
+New transporter with id: 1134222674
+[WARINING] New transporters cannot deliver orders as their first action
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711037422288-0
+          (string) TRANSPORTER_ID
+          (string) 2085622330
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 153279699
+The ids match! 153279699 = 153279699
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711037422288-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 2085622330
+2024-03-21 17:10:22, 289675770, 40.000493, 16573, 2085622330, GET_TRANSPORTER_ID
+No action
+L'operazione è durata 1360761576 nanosecondi 
+####################
+ACTION: GET_TRANSPORTER_ID
+    (string) transporterstreamserver
+        (string) 1711037462303-0
+          (string) TRANSPORTER_ID
+          (string) 1279040028
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 153279699
+The ids match! 153279699 = 153279699
+Key in server response: TRANSPORTER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711037462303-0 from stream transporterstreamserver
+After ack
+Got transporter with id: 1279040028
+2024-03-21 17:11:02, 304938443, 40.015468, 16573, 1279040028, GET_TRANSPORTER_ID
+ACTION: TAKE_ORDER
+    (string) transporterstreamserver
+        (string) 1711037462318-0
+          (string) ORDER_ID_TAKE
+          (string) -1
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 153279699
+The ids match! 153279699 = 153279699
+Key in server response: ORDER_ID_TAKE
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711037462318-0 from stream transporterstreamserver
+After ack
+L'operazione è durata 1363908998 nanosecondi 
+####################
+Goodbye transporter client!

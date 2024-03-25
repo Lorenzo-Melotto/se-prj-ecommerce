@@ -1,0 +1,35 @@
+Inizializza connessione a Redis e Postgresql
+Inizializza random number generator
+Crea un identificativo per leggere sulle stream Redis
+Inizializza il tempo di simulazione
+Ripeti fino alla fine del tempo di simulazione:
+ - Decidi in modo random se:
+    - Creare un nuovo furnisher creando un id random
+    - Effettuare il login con getFurnisherId:
+        - Chiedi al server l'id di un furnisher esistente tramite
+          stream Redis
+        - Leggi dalla stream Redis l'id restituito dal server
+        - Effettua il log della transazione eseguita
+ - Decidi quante operazioni effettuare in un range compreso
+   tra le 2 e le 10 operazioni
+ - Decidi in modo randomico se:
+    - Inserire un nuovo prodotto con insertItem:
+        - Scrivi su stream Redis l'id del nuovo prodotto,
+          la quantità e il proprio furnisher id
+        - Attendi di leggere l'ok del server dalla stream Redis
+        - Effettua il log della transazione eseguita
+    - Aggiornare la quantità di un prodotto esistente con updateItem:
+        - Verifica che il furnisher non sia un nuovo furnisher
+        - Chiedi al server l'id di un prodotto e la relativa quantità
+          tramite la stream Redis
+        - Leggi dalla stream Redis id e quantità restituite dal server
+        - Esegui il log della transazione eseguita
+        - Decidi la nuova quantità disponibile del prodotto che sia 
+          maggiore della quantità attuale
+        - Comunica al server la nuova quantità tramite la stream Redis
+        - Attendi di leggere l'ok del server dalla stream Redis
+        - Esegui il log della transazione eseguita
+    - Non fare nulla
+ - Aggiorna il tempo di simulazione
+Chiudi la comunicazione con Redis e Postgresql
+Termina il programma

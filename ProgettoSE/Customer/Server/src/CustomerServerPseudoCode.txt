@@ -1,0 +1,28 @@
+
+
+Inizializza connessione a Redis e Postgresql
+Inizializza random number generator
+Crea un identificativo per leggere sulle stream Redis
+Ripeti indefinitivamente:
+ - Attendi che un client scriva un messaggio sulla stream Redis
+ - Estrai il comando dal messaggio letto:
+    - Se il comando estratto è GET_CUSTOMER_ID:
+        - Estrai dal DB l'id di un customer in modo random
+        - Restituisici al client l'id letto scrivendo su stream Redis
+    - Se il comando estratto è LIST_OF_ITEMS:
+        - Estrai dal messaggio l'id del customer
+        - Se è un nuovo customer, aggiungilo al DB
+        - Leggi dal DB id e quantità di tutti i prodotti disponibili
+        - Scegli un prodotto da restituire in modo random
+        - Rispondi al client con l'id del prodotto scelto e la 
+          relativa quantità disponibile scrivendo su stream Redis
+    - Se il comando estratto è BUY_ITEM:
+        - Estrai dal messaggio id del prodotto, quantità 
+          disponibile del prodotto, id del customer che 
+          vuole acquistare il prodotto
+        - Se è un nuovo customer, aggiungilo al DB
+        - Inserisci il nuovo ordine con i dati inviati dal client
+          sul DB
+        - Aggiorna la quantità disponibile del prodotto sul DB
+        - Rispondi al client con l'id dell'ordine inserito sulla 
+          stream Redis

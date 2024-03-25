@@ -1,0 +1,165 @@
+Hello customer client!
+New Customer with id: 1067715545
+No action
+L'operazione è durata 1345460755 nanosecondi 
+##############################
+ACTION: GET_CUSTOMER_ID
+    (string) customerstreamserver
+        (string) 1711035995388-0
+          (string) CUSTOMER_ID
+          (string) 877550020
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 924136421
+The ids match! 924136421 = 924136421
+Key in server response: CUSTOMER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711035995388-0 from stream customerstreamserver
+After ack
+Got customer with id: 877550020
+2024-03-21 16:46:35, 390086599, 40.000177, 15671, 877550020, GET_CUSTOMER_ID
+No action
+L'operazione è durata 1362289147 nanosecondi 
+##############################
+New Customer with id: 721249122
+No action
+L'operazione è durata 1345451607 nanosecondi 
+##############################
+New Customer with id: 1941762533
+No action
+L'operazione è durata 1345423390 nanosecondi 
+##############################
+New Customer with id: 1728956388
+ACTION: BUY_ITEM
+    (string) customerstreamserver
+        (string) 1711036115417-0
+          (string) ITEM_ID
+          (string) 1101637749
+          (string) QUANTITY
+          (string) 2
+          (string) CLIENT_ID
+          (string) 924136421
+The ids match! 924136421 = 924136421
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036115417-0 from stream customerstreamserver
+After ack
+2024-03-21 16:48:35, 418741967, 40.000240, 15671, 1728956388, LIST_OF_ITEMS
+Customer 1728956388 tries to buy item 1101637749 with quantity 2
+2024-03-21 16:48:35, 423137045, 40.000240, 15671, 1728956388, BUY_ITEM
+    (string) customerstreamserver
+        (string) 1711036115435-0
+          (string) ORDER_ID
+          (string) 196
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 924136421
+The ids match! 924136421 = 924136421
+Key in server response: ORDER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036115435-0 from stream customerstreamserver
+After ack
+L'operazione è durata 1383219490 nanosecondi 
+##############################
+ACTION: GET_CUSTOMER_ID
+    (string) customerstreamserver
+        (string) 1711036155444-0
+          (string) CUSTOMER_ID
+          (string) 416351924
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 924136421
+The ids match! 924136421 = 924136421
+Key in server response: CUSTOMER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036155444-0 from stream customerstreamserver
+After ack
+Got customer with id: 416351924
+2024-03-21 16:49:15, 445661164, 40.038022, 15671, 416351924, GET_CUSTOMER_ID
+No action
+L'operazione è durata 1359590514 nanosecondi 
+##############################
+ACTION: GET_CUSTOMER_ID
+    (string) customerstreamserver
+        (string) 1711036195458-0
+          (string) CUSTOMER_ID
+          (string) 695633079
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 924136421
+The ids match! 924136421 = 924136421
+Key in server response: CUSTOMER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036195458-0 from stream customerstreamserver
+After ack
+Got customer with id: 695633079
+2024-03-21 16:49:55, 460226303, 40.014405, 15671, 695633079, GET_CUSTOMER_ID
+No action
+L'operazione è durata 1359929410 nanosecondi 
+##############################
+New Customer with id: 629495534
+ACTION: BUY_ITEM
+    (string) customerstreamserver
+        (string) 1711036235485-0
+          (string) ITEM_ID
+          (string) 1246682447
+          (string) QUANTITY
+          (string) 79
+          (string) CLIENT_ID
+          (string) 924136421
+The ids match! 924136421 = 924136421
+Key in server response: ITEM_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036235485-0 from stream customerstreamserver
+After ack
+2024-03-21 16:50:35, 486346449, 40.014737, 15671, 629495534, LIST_OF_ITEMS
+Customer 629495534 tries to buy item 1246682447 with quantity 2
+2024-03-21 16:50:35, 500426914, 40.014737, 15671, 629495534, BUY_ITEM
+    (string) customerstreamserver
+        (string) 1711036235505-0
+          (string) ORDER_ID
+          (string) 268
+          (string) FILLER
+          (string) 
+          (string) CLIENT_ID
+          (string) 924136421
+The ids match! 924136421 = 924136421
+Key in server response: ORDER_ID
+Before first read
+After first read
+Before second read
+After second read
+Before ack
+ACK message with id 1711036235505-0 from stream customerstreamserver
+After ack
+L'operazione è durata 1385358477 nanosecondi 
+##############################
+Goodbye customer client!
